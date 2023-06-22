@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.orden-produtos {
+    display: flex;
+}
+
+.botoes {
+    display: flex;
+    margin-left: 390px;
+    width: 80vw;
+    height: auto;
+}
+
+.botoes h3 {
+    margin-right: 10px;
+}
+
+.botoes button {
+    border: 1px solid #000000;
+    color: #000000;
+    width: 10vw;
+    margin-right: 10px;
+
+}
+
+.botoes button:hover {
+    background-color: aquamarine;
+    border: none;
+}
+
+.botoes button.active {
+    background-color: aquamarine;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: auto;
+}
